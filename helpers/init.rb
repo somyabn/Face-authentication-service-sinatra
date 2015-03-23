@@ -1,0 +1,6 @@
+require_relative './response_format'
+require_relative './photo_capture'
+require_relative './profile_face_authorise'
+require_relative './profile_face_train'
+require_relative './store_img_url'
+require_relative './response_format'
