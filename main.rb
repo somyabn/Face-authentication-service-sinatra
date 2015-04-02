@@ -2,7 +2,7 @@ require 'sinatra/base'
 require 'sinatra'
 require 'sinatra/activerecord'
 require 'sinatra/cross_origin'
-set :database, "sqlite3:test.sqlite3"
+configure(:development){set :database, "sqlite3:blog.sqlite3"}
 require 'bundler/setup'
 require 'rack-flash'
 require 'json'
